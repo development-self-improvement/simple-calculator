@@ -45,4 +45,19 @@ This project should reside in a folder named "project-1".
 ## Project 2
 
 This is an extension of the previous project.  However, in this project our focus will be on two things:
- - 
+ - Order of Operations
+ - Making a custom exception
+
+### Order of Operations
+
+Now that you have a simple calculator built, let's expand it so we follow the correct order of operations.  This means that you will need to walk through the entire equation that the user specifies in order to process it in the correct order.  Following the rules laid out by BEDMAS.
+
+```
+Please Enter an Equation:
+> 1 + 2 * 3
+Answer: 7
+```
+
+### Custom Exception
+
+In the previous exercise, we simply gave the user an error message when something failed.  Now, it would be nice make our own exception which explicitly calls out the error.  More specifically, make a "InvalidOperatorException" get thrown if a person enters an unexpected operator.
